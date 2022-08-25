@@ -1,0 +1,54 @@
+
+
+body {
+    /* background-color:lightsteelblue; */
+    background-color:rgb(185, 163, 207);
+
+}
+
+header {
+    color:white;
+    font-size: 15px;
+    text-align: center;}
+
+h1 { 
+    color:white;
+    font-size: 10px;
+    text-align:left;
+    margin:0px;
+}
+
+
+textarea { 
+    text-align:center;
+}
+
+button {
+    color: rgb(91, 94, 138);
+ background-color:rgb(42, 36, 48);
+
+}
+
+p {
+    color: whitesmoke;
+}
+
+.btnstart {
+    color:blanchedalmond;
+    font-size: 9px;
+    align-content:  center;
+}
+
+.btnstart:hover {
+background-color:blue;
+}
+
+.btnstart:active {
+background-color:blue;}
+
+p {
+
+    font-size: 14px;
+    text-align: center;
+
+}
