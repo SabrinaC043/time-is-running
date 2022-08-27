@@ -23,7 +23,7 @@ textarea {
     text-align:center;
 }
 
-button {
+#start {
     color: rgb(91, 94, 138);
  background-color:rgb(42, 36, 48);
 
@@ -33,17 +33,17 @@ p {
     color: whitesmoke;
 }
 
-.btnstart {
+#start {
     color:blanchedalmond;
     font-size: 9px;
     align-content:  center;
 }
 
-.btnstart:hover {
+#start:hover {
 background-color:blue;
 }
 
-.btnstart:active {
+#start:active {
 background-color:blue;}
 
 p {
@@ -52,3 +52,35 @@ p {
     text-align: center;
 
 }
+.hide {
+    display: none;
+}
+
+#Question2 {
+    display:none;
+}
+
+#Question3 {
+    display:none;
+}
+
+
+h1 {
+    display:none;
+    color: black;
+    text-align:center;
+}
+
+h2 { display:none;
+color:black;
+text-align: center;
+}
+
+#start { 
+    margin-left: 235px;
+}
+/* #submit
+{
+
+
+} */ 

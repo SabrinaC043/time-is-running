@@ -1,56 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Develop/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Running out of Time?</title>
-</head>
+  </head>
 
-<body>
-    <h1> View High Scores</h1>
-    <header> The David Goggins Quiz </header>
+  <body>
+    <header>
+      <a href="#"> View High Scores</a>
+      <p>Time Left: <span id="count">0</span> seconds remaining</p>
+    </header>
 
-<!-- <t id="time" name="timers"  -->
-    <p> 
-        This quiz is a tribute to the man, the machine: David Goggins. 
-        David Goggins is one of the most athletic and mentally tough,
-         human beings in the world. With a never quit mindset, this quiz is a tribute to all he has overcome.
-         By the end of this quiz, the goal is:
-        for you to see that all things are possible; 
-        as long as you compete with you! 
-        
-        <br> Click Start to Begin </br>
-    </p>
+    <section id="introduction">
+      <h2>The David Goggins Quiz</h2>
 
-    </p>
+      <!-- <t id="time" name="timers"  -->
+      <p>
+        This quiz is a tribute to the man, the machine: David Goggins. David
+        Goggins is one of the most athletic and mentally tough, human beings in
+        the world. With a never quit mindset, this quiz is a tribute to all he
+        has overcome. By the end of this quiz, the goal is: for you to see that
+        all things are possible; as long as you compete with you!
+      </p>
+      <p>Click Start to Begin</p>
 
+      <button id="start">Start Quiz</button>
+    </section>
 
-<button class="btnstart">Start Quiz</button>
-<section>
+    <section id="questions" class="hide">
+      <h2 id="question1"></h2>
+      <div id="answers"></div>
+    </section>
 
+    <section id="allSet" class="hide">
+      <h1>You're All Set!</h1>
 
-</section>
-    <div id="Question1"> 
-    <p> What is the name of David's autobiography? </p></div>
+      <h2>High Score: <span id="score"></span></h2>
 
-    <div id="Question2"> 
-        <p> Where did David Goggins grow up? </p></div>
+      <h3>
+        Input Initials: <input placeholder="initials" id="initials" />
+        <button id="submit" class="submit">Submit</button>
+      </h3>
+      <button id="goBack" class="backbtn">Go Back</button>
+    </section>
 
-        <div id="Question3"> 
-            <p> What was David's previous job before he joined the Navy SEALs?</p></div>
-<p> 
-
-    </p>
-
-
-    <btn id="goback" button class="backbtn">Go Back</button></div>
-<div class="submit">
-        <btn id="Submit" button class="submit">Submit</button></div>
-    
-
-
-<script src =Develop/index.js ></script>
-</body>
+    <script src="./assets/index.js"></script>
+  </body>
 </html>
