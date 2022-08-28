@@ -1,86 +1,65 @@
 
 
-body {
+body { color:white;
     /* background-color:lightsteelblue; */
     background-color:rgb(185, 163, 207);
-
+text-align:center;
 }
 
 header {
+   
+    font-size: 15px;
+    text-align: left;}
+
+header p { 
     color:white;
     font-size: 15px;
-    text-align: center;}
-
-h1 { 
-    color:white;
-    font-size: 10px;
-    text-align:left;
+    text-align:right;
     margin:0px;
+    position:static;
 }
 
-
-textarea { 
-    text-align:center;
+section .introduction {
+font-size:16px;
+color:white;
 }
+ h2 {
+font-size: 20px;
+color:white;
+text-align:center;}
 
-#start {
-    color: rgb(91, 94, 138);
+p {
+
+    text-align: center;
+}
+ #start {
+   color: white;
  background-color:rgb(42, 36, 48);
-
 }
-
+#start:hover {
+    background-color:blue;
+    }
+    
+    #start:active {
+    background-color:blue;}
+    
 p {
     color: whitesmoke;
 }
 
-#start {
-    color:blanchedalmond;
-    font-size: 9px;
-    align-content:  center;
-}
-
-#start:hover {
-background-color:blue;
-}
-
-#start:active {
-background-color:blue;}
-
-p {
-
-    font-size: 14px;
-    text-align: center;
-
-}
 .hide {
-    display: none;
-}
-
-#Question2 {
-    display:none;
-}
-
-#Question3 {
-    display:none;
-}
-
+display:none;
+} 
+/* .questions {
+color:white;
+} */
 
 h1 {
-    display:none;
-    color: black;
-    text-align:center;
+    color:white;
 }
-
-h2 { display:none;
-color:black;
-text-align: center;
+h2 {
+    color:white;
 }
-
-#start { 
-    margin-left: 235px;
+h3 {
+    color:white;
 }
-/* #submit
-{
-
-
-} */ 
