@@ -21,11 +21,16 @@ SO THAT I can gauge my progress compared to my peers and do better, as well as w
     <li> Adding scores and removing values to decrement if wrong answer was selected. </li>
 
 
-<h5>  Process<h5>
+<h4>  Process<h4>
+
    <p> I learned that overall, JavaScript is an extremely literal when it comes to coding.
+
    Familiarizing myself with the flow and speaking the process outloud provided a chance to practice the technical terms.
+
    Creating the object with arrays, was a great practice to see just how the DRY method can be utilized through dynamic creation of elements.
+
    Static elements are intended to be kept on the HTML side as long as they are something that the user is always going to see.
+   
    When storing the scores to local storage and saving them in a separate file for .js and .html , I understood it as a separation of concern and a way to save the users input for a later point in time.  
    
    
