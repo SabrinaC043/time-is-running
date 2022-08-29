@@ -54,15 +54,16 @@ function startQuiz() {
   intervalId = setInterval(
     
     setTimeLeft,
-    1000);
+   1000);
+
 
   if(timer===0){clearInterval(intervalId)}
 
   // the intro container needs to be hidden and the question container needs to be shown and the first question needs to be displayed
   introContainer.setAttribute("class", "hide");
   questionContainer.removeAttribute('class')
-  showQuestion();
-}
+  showQuestion()
+};
 
 
 function showQuestion() {
@@ -131,7 +132,9 @@ function lastPage() {
   //allSet.setAttribute("class", "hide");
   
 };
-
+// e is short for event 
+// mylocalStorage so it is different from localStorage
+// revisit local Storage videos this was a serious struggle area.
 function mylocalStorage(e){
   e.preventDefault()
   var initials =document.getElementById('initials').value;
@@ -143,12 +146,11 @@ function mylocalStorage(e){
 //inputInitials.value = "";
 
 }
-
-
 function setTimeLeft() {
   timer--;
+  //what do I need to show to the user?
   ticker.textContent = timer;
 
 };
-
+// what is JavaSCRIPT looking for to "kickoff"
 introContainer.addEventListener("click", startQuiz);
